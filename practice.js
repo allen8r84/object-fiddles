@@ -108,15 +108,22 @@ for (var key in me) {
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
-
+var album = {};
+album.song2 = "3:50";
+album.song1 = "2:45";
+album.song3 = "4:15";
+album.song4 = "1:23";
+album.song5 = "5:32";
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
+for (var key in album) {
+    alert(key);
+}
 
 
 
-
-//NEXT PROBLEM
+//#6 === NEXT PROBLEM
 
 
 
